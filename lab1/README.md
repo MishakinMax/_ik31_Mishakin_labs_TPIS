@@ -1,6 +1,6 @@
 # _ik31_lab_1
 Картина для 10 завдання
-![alt text](https://github.com/MishakinMax/_ik31_lab_1/blob/main/lab1_2/Wrech.png "Wrench")
+![alt text](https://github.com/MishakinMax/_ik31_Mishakin_labs_TPIS/blob/master/lab1/Wrech.png "Wrench")
 
 #1
 Я сколнував гіт командою 
