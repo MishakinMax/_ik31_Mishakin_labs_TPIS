@@ -11,7 +11,7 @@ tests/tests.py .....                                                     [100%]
 No URL passed to function
 ========================================
 Результат з правильною URL: 
-Time is:  06:50:02 PM
+Time is:  06:51:28 PM
 Date is:  10-11-2021
 success
 Доброї ночі
