@@ -1,0 +1,10 @@
+ERROR 2021-11-02 10:15:12,729 root : Сервер недоступний.
+ERROR 2021-11-02 10:16:12,832 root : Сервер недоступний.
+ERROR 2021-11-02 10:17:12,835 root : Сервер недоступний.
+INFO 2021-11-02 10:18:00,909 root : Сервер доступний. Час на сервері: 02.11.21 08:18
+INFO 2021-11-02 10:18:00,909 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2021-11-02 10:18:00,909 root : Відповідь сервера місти наступні поля:
+INFO 2021-11-02 10:18:00,909 root : Ключ: date, Значення: 02.11.21 08:18
+INFO 2021-11-02 10:18:00,909 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2021-11-02 10:18:00,909 root : Ключ: server_info, Значення: OSName: Linux; NodeName: mishakin-VirtualBox; Release:5.11.0-37-generic; Version:#41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021; Indentificator:x86_64
+INFO 2021-11-02 10:18:00,909 root : Ключ: client_info, Значення: Browser: python-requests/2.26.0  IP: 127.0.0.1 
