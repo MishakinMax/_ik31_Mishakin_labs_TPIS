@@ -5,11 +5,13 @@ name = "pypi"
 
 [packages]
 requests = "*"
+django = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
 [scripts]
 server = "python manage.py runserver 0.0.0.0:8000"
 mon = "python3 monitoring.py"
