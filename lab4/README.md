@@ -87,7 +87,7 @@
 #### 5. Створив власний репозиторій на [Docker Hub](https://cloud.docker.com/repository/registry-1.docker.io/pavlovulchak/lab4). Для цього залогінився у власний аккаунт на `Docker Hub` після чого перейшов у вкладку Repositories і далі натиснув кнопку `Create new repository`.
 #### 6. Виконав білд (build) Docker імеджа та завантажтажив його до репозиторію. Для цього я повинен вказати правильну назву репозиторію та TAG. Оскільки мій репозиторій `pavlovulchak/lab4` то команда буде виглядати `sudo docker build -t pavlovulchak/lab4:django .`, де `django` - це тег.
 Команда для завантаження на власний репозеторій `docker push pavlovulchak/lab4:django`.
-Посилання на мій [`Docker Hub`](https://cloud.docker.com/repository/registry-1.docker.io/pavlovulchak/lab4) репозиторій та посилання на [`імедж`](https://hub.docker.com/layers/177240535/pavlovulchak/lab4/django/images/sha256-410727b1de9c473c7f36270fb70d3791de7856ad73e3cd25603c888ab92c7ee9?context=repo).
+Посилання на мій [`Docker Hub`](https://github.com/MishakinMax/_ik31_Mishakin_labs_TPIS/tree/master/lab4) репозиторій та посилання на [`імедж`](https://hub.docker.com/repository/docker/servaretur/lab4).
 #### 7. Для запуску веб-сайту виконав команду `sudo docker run -it --name=django --rm -p 8000:8000 pavlovulchak/lab4:django`:
 ```text
 mishakin@mishakin-VirtualBox:~/Git/_ik31_Mishakin_labs_TPIS/lab4$ sudo docker run -it --name=django --rm -p 8000:8000 lab45:django
@@ -105,8 +105,6 @@ Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
 
 ```
-Перейшов на адресу http://127.0.0.1:8000 та переконався що мій веб-сайт працює:
-![task_7](https://github.com/PavloVulchak/Pavlo_Vulchak_IK_31/blob/master/Lab4/picture/task_7.png)
 #### 8. Оскільки веб-сайт готовий і працює, потрібно створит ще один контейнер із програмою моніторингу нашого веб-сайту (Моє Завдання на роботу):
 1. ##### Створив ще один Dockerfile з назвою `Dockerfile.site` в якому помістив програму моніторингу.
     Вміст файлу `Dockerfile.site`:
