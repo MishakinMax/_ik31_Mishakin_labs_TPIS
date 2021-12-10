@@ -86,9 +86,9 @@
     ```
 #### 5. Створив власний репозиторій на [Docker Hub](https://cloud.docker.com/repository/registry-1.docker.io/pavlovulchak/lab4). Для цього залогінився у власний аккаунт на `Docker Hub` після чого перейшов у вкладку Repositories і далі натиснув кнопку `Create new repository`.
 #### 6. Виконав білд (build) Docker імеджа та завантажтажив його до репозиторію. Для цього я повинен вказати правильну назву репозиторію та TAG. Оскільки мій репозиторій `pavlovulchak/lab4` то команда буде виглядати `sudo docker build -t pavlovulchak/lab4:django .`, де `django` - це тег.
-Команда для завантаження на власний репозеторій `docker push pavlovulchak/lab4:django`.
+Команда для завантаження на власний репозеторій `docker push servaretur/lab4`.
 Посилання на мій [`Docker Hub`](https://github.com/MishakinMax/_ik31_Mishakin_labs_TPIS/tree/master/lab4) репозиторій та посилання на [`імедж`](https://hub.docker.com/repository/docker/servaretur/lab4).
-#### 7. Для запуску веб-сайту виконав команду `sudo docker run -it --name=django --rm -p 8000:8000 pavlovulchak/lab4:django`:
+#### 7. Для запуску веб-сайту виконав команду `sudo docker run -it --name=django --rm -p 8000:8000 servaretur/lab4`:
 ```text
 mishakin@mishakin-VirtualBox:~/Git/_ik31_Mishakin_labs_TPIS/lab4$ sudo docker run -it --name=django --rm -p 8000:8000 lab45:django
 [sudo] password for mishakin: 
