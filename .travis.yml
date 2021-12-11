@@ -46,7 +46,7 @@ jobs:
         - make run
         - make test-app
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-        - make docker-push
+        - make PushToDocker
 branches:
   only:
     - master
