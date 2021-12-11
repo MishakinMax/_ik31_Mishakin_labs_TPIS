@@ -121,5 +121,5 @@ nohup pipenv run python monitoring.py || true &
 exit 0
 ```
 Запуск білда в `Travis-ci`:
-![task_6_2]()
+![task_6](https://github.com/MishakinMax/_ik31_Mishakin_labs_TPIS/blob/master/lab6/Screenshot_1.png)
 #### 7. Після успішного виконання роботи відредагував свій персональний README.md у цьому репозиторію та створив pull request.
