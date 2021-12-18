@@ -170,7 +170,6 @@ ENTRYPOINT ["pipenv", "run", "python", "monitoring.py", "0.0.0.0:8000"]
     [13/Nov/2021 21:48:42] "GET /health/ HTTP/1.1" 200 340
     [13/Nov/2021 21:49:42] "GET /health HTTP/1.1" 301 0
     [13/Nov/2021 21:49:42] "GET /health/ HTTP/1.1" 200 340
-    23:53:19 pavlovulchak ~/TPIS/Pavlo_Vulchak_IK_31/Lab4 (master) $ 
     ```
     Запуск моніторингу:
     ```text
